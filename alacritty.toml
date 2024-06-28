@@ -1,0 +1,12 @@
+[window]
+title = "Alacritty"
+dynamic_title = false
+opacity = 0.9
+blur = true
+
+[font]
+normal = {family = "Hurmit Nerd Font", style = "regular"}
+size = 10
+
+[cursor]
+style = {shape = "Underline", blinking = "On"}
