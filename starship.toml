@@ -1,0 +1,32 @@
+
+format = """
+\\[$username on $hostname\\] $directory$git_branch$git_commit$git_state$git_metrics$git_status
+$character
+"""
+
+[username]
+style_user = "green bold"
+style_root = "red bold"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+style = 'bold #253fce'
+format = '[Archlinux]($style)'
+trim_at = "."
+disabled = false
+
+[character]
+success_symbol = '[](bold green) '
+error_symbol = '[](bold red) '
+
+[directory]
+truncation_length = 3
+style = 'bold blue'
+read_only_style = 'bold red'
+read_only = '󰈡 '
+truncation_symbol = '.../'
+home_symbol = '~'
+
